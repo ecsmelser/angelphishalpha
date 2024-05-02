@@ -1,0 +1,28 @@
+{
+    "manifest_version": 3,
+    "name": "Angel Phish",
+    "version": "1.0",
+    "description": "Predicts the likelihood of a website attempting phishing, offering users valuable insights into website safety beyond traditional services.",
+    "permissions": ["tabs", "<all_urls>" ,"activeTab", "downloads"],
+    "background": {
+      "type": "module"
+    },
+    
+    
+    
+  
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+      }
+    },
+    "icons": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+    
+  }
